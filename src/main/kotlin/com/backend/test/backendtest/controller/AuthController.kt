@@ -1,6 +1,6 @@
 package com.backend.test.backendtest.controller
 
-import com.backend.test.backendtest.service.AuthService
+import com.backend.test.backendtest.service.auth.AuthService
 import jakarta.validation.Valid
 import jakarta.validation.constraints.Email
 import jakarta.validation.constraints.Pattern

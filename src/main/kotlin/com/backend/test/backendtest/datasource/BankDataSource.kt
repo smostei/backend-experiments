@@ -1,7 +1,7 @@
 package com.backend.test.backendtest.datasource
 
-import com.backend.test.backendtest.database.model.Bank
-import com.backend.test.backendtest.database.model.BanksResponse
+import com.backend.test.backendtest.data.document.Bank
+import com.backend.test.backendtest.data.document.BanksResponse
 
 interface BankDataSource {
 

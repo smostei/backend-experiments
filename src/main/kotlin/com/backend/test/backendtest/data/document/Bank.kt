@@ -1,4 +1,4 @@
-package com.backend.test.backendtest.database.model
+package com.backend.test.backendtest.data.document
 
 data class BanksResponse(
     val banks: Collection<Bank>

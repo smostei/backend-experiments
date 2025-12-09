@@ -1,8 +1,9 @@
 package com.backend.test.backendtest.service
 
 import com.backend.test.backendtest.datasource.BankDataSource
-import com.backend.test.backendtest.database.model.Bank
-import com.backend.test.backendtest.database.model.BanksResponse
+import com.backend.test.backendtest.data.document.Bank
+import com.backend.test.backendtest.data.document.BanksResponse
+import com.backend.test.backendtest.service.bank.BankService
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

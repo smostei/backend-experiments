@@ -1,8 +1,8 @@
 package com.backend.test.backendtest.controller
 
-import com.backend.test.backendtest.database.model.Bank
-import com.backend.test.backendtest.database.model.BanksResponse
-import com.backend.test.backendtest.service.BankService
+import com.backend.test.backendtest.data.document.Bank
+import com.backend.test.backendtest.data.document.BanksResponse
+import com.backend.test.backendtest.service.bank.BankService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ExceptionHandler

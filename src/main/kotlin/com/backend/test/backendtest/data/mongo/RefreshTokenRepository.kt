@@ -1,6 +1,6 @@
-package com.backend.test.backendtest.database.repository
+package com.backend.test.backendtest.data.mongo
 
-import com.backend.test.backendtest.database.model.RefreshToken
+import com.backend.test.backendtest.data.document.RefreshToken
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.repository.MongoRepository
 

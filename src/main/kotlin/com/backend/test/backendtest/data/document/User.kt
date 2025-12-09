@@ -1,4 +1,4 @@
-package com.backend.test.backendtest.database.model
+package com.backend.test.backendtest.data.document
 
 import org.bson.types.ObjectId
 import org.springframework.data.annotation.Id

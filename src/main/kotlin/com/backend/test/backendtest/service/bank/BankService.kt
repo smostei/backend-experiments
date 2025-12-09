@@ -1,8 +1,8 @@
-package com.backend.test.backendtest.service
+package com.backend.test.backendtest.service.bank
 
+import com.backend.test.backendtest.data.document.Bank
+import com.backend.test.backendtest.data.document.BanksResponse
 import com.backend.test.backendtest.datasource.BankDataSource
-import com.backend.test.backendtest.database.model.Bank
-import com.backend.test.backendtest.database.model.BanksResponse
 import org.springframework.stereotype.Service
 
 @Service

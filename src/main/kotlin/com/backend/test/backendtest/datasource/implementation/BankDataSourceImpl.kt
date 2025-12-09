@@ -1,8 +1,8 @@
 package com.backend.test.backendtest.datasource.implementation
 
 import com.backend.test.backendtest.datasource.BankDataSource
-import com.backend.test.backendtest.database.model.Bank
-import com.backend.test.backendtest.database.model.BanksResponse
+import com.backend.test.backendtest.data.document.Bank
+import com.backend.test.backendtest.data.document.BanksResponse
 import org.springframework.stereotype.Repository
 
 @Repository // With this annotation, we tell to spring that this class is able to put and retrieve data, etc

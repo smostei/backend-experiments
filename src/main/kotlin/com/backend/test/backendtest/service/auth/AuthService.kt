@@ -1,9 +1,9 @@
-package com.backend.test.backendtest.service
+package com.backend.test.backendtest.service.auth
 
-import com.backend.test.backendtest.database.model.RefreshToken
-import com.backend.test.backendtest.database.model.User
-import com.backend.test.backendtest.database.repository.RefreshTokenRepository
-import com.backend.test.backendtest.database.repository.UserRepository
+import com.backend.test.backendtest.data.document.RefreshToken
+import com.backend.test.backendtest.data.document.User
+import com.backend.test.backendtest.data.mongo.RefreshTokenRepository
+import com.backend.test.backendtest.data.mongo.UserRepository
 import com.backend.test.backendtest.security.HashEncoder
 import com.backend.test.backendtest.security.JwtService
 import org.bson.types.ObjectId

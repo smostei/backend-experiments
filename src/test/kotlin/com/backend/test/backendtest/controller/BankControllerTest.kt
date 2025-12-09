@@ -1,6 +1,6 @@
 package com.backend.test.backendtest.controller
 
-import com.backend.test.backendtest.database.model.Bank
+import com.backend.test.backendtest.data.document.Bank
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
