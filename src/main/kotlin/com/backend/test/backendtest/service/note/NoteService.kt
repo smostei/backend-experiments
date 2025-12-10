@@ -53,7 +53,7 @@ class NoteService(
         if (noteToDelete.ownerId == ownerId) {
             repository.deleteById(id)
         } else {
-            throw IllegalArgumentException("Owner incorrect.")
+            throw IllegalArgumentException("Invalid owner.")
         }
     }
 }
